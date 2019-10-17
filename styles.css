@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+    height:20px;
+    min-width: 1000px;
+    overflow-x:scroll;
+    margin: 25px;
+}
+
+h1 {
+    margin: 25px;
+}
+
+label {
+    margin-left: 25px;
+}
+
+button{
+    margin: 10px;
+    vertical-align: top;
+}
+
+#error-label {
+    color: darkred;
+    font-size: small;
+}
+
+
+textarea {
+    font-family: Roboto, sans-serif;
+    font-size: small;
+    width: 400px;
+    height: 400px;
+    resize: none;
+}
+
+polygon {
+    opacity: .2;
+}
+
+path {
+    stroke: gray;
+    stroke-width: 2px;
+    vector-effect: non-scaling-stroke;
+}

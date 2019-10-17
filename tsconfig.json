@@ -1,0 +1,24 @@
+// node unit testing config
+{
+  "compilerOptions": {
+    "lib":["es5", "es2015.promise", "dom", "es2015"],
+    "target":"es5",
+    "module": "umd",
+    "outDir": "./build",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "dist",
+    "**/*.test.ts"
+  ]
+}
